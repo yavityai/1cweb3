@@ -14,12 +14,16 @@ FastApiServer — это серверное приложение, построе
 
 ### 1. Клонируйте репозиторий
 
+```bash
 git clone https://github.com/yavityai/1cweb3.git
 cd 1cweb3/FastApiServer
+```
 
 ### 2. Установите зависимости
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Настройте конфиг API 
 
@@ -30,7 +34,9 @@ pip install -r requirements.txt
 
 ### 4. Запустите сервер
 
+```bash
 uvicorn main:app --reload
+```
 
 ### 5. Проверьте API
 
