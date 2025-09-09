@@ -1,0 +1,21 @@
+{
+  "networks": {
+    "ethereum": {
+      "rpc": "https://eth-mainnet.g.alchemy.com/v2/API_KEY"
+    },
+    "base": {
+      "rpc": "https://eth-mainnet.g.alchemy.com/v2/API_KEY"
+    },
+    "avax": {
+      "rpc": "https://api.avax.network/ext/bc/C/rpc"
+    }
+  },
+  "tokens": [
+    {
+      "symbol": "TOKEN_SYMBOL",
+      "address": "TOKEN_ADRESS",
+      "network": "TOKEN_NETWORK",
+      "decimals": 18
+    }
+  ]
+}
